@@ -147,7 +147,11 @@ a:hover {
  border-top-right-radius: 15px;
 }  
   
-.row {
- max-width: 100%;
+.followers-number,
+.likes-number,
+.photos-number {
+  max-width: 100%;
+ font-weight: 700;
 }
+  
 }
