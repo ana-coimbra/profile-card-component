@@ -134,18 +134,6 @@ a:hover {
 }
 
 @media (max-width: 728px) {
-  .image-top {
-  position: absolute;
-  z-index: 0;
-  max-width: 100%;
-}
-
-.image-bottom {
-  position: absolute;
-  z-index: 0;
-  max-width: 100%;
-}
- 
 .box-card {
   max-width: 100%;
   margin: 50% auto;
