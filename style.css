@@ -157,12 +157,17 @@ a:hover {
  position: absolute;
  border-top-left-radius: 15px;
  border-top-right-radius: 15px;
-} 
+}  
+
+.profile {
+ position: absolute;
+ max-width: 100%;
+}
   
 .followers,
 .likes,
 .photos {
-  padding: 0;
+  padding: 2px 0;
 }
   
 }
