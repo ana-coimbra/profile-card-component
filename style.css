@@ -150,5 +150,19 @@ a:hover {
   max-width: 100%;
   margin: 50% auto;
   transform: translateY(-25%);  
-  }
+ }
+  
+.pattern {
+ max-width: 100%;
+ position: absolute;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+} 
+  
+.followers,
+.likes,
+.photos {
+  padding: 0;
+}
+  
 }
