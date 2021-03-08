@@ -134,7 +134,7 @@ a:hover {
 }
 
 @media (max-width: 728px) {
-  .box-card {
+  .container {
     max-width: 100%;
     margin: 45px;
   }
