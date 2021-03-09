@@ -152,13 +152,9 @@ a:hover {
     left: 130px;
   }
 
-  hr {
-    top: 265px;
-  }
-
   .container {
     width: 320px;
-    height: 365px;
+    height: 375px;
     padding: 0;
     margin: 8rem auto;
   }
@@ -172,7 +168,7 @@ a:hover {
   }
 
   .row {
-    bottom: 15px;
+    bottom: 20px;
   }
 
   .followers-number,
