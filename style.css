@@ -50,7 +50,7 @@ hr {
   top: 270px;
 }
 
-.image-top {
+/*.image-top {
   position: absolute;
   z-index: 0;
   top: -400px;
@@ -61,25 +61,21 @@ hr {
   position: absolute;
   z-index: 0;
   right: -150px;
-}
+}*/
 
 .container {
-  margin: 0 auto;
-}
-
-.box-card {
   width: 350px;
   height: 385px;
   border-radius: 15px;
   background-color: white;
   box-shadow: 15px 15px 10px rgb(0 0 0 / 10%);
   position: relative;
-  margin: 25% auto;
-  transform: translateY(-25%);
+  margin: 14rem auto;
 }
 
 .pattern {
   position: absolute;
+  right: 0px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -119,7 +115,7 @@ hr {
   font-size: 11px;
   text-align: center;
   position: relative;
-  bottom: 24rem;
+  bottom: 12rem;
 }
 
 a {
@@ -131,4 +127,44 @@ a {
 a:hover {
   color: white;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  /*.image-top {
+    position: absolute;
+    z-index: 0;
+    bottom: 350px;
+    right: 150px;
+  }
+
+  .image-bottom {
+    position: absolute;
+    z-index: 0;
+    top: 350px;
+    left: 150px;
+  }*/
+  .container {
+    padding: 0;
+    margin: 10rem auto;
+  }
+
+  .row {
+    left: 40px;
+  }
+
+  .followers-number,
+  .likes-number,
+  .photos-number {
+    width: 33%;
+  }
+
+  .followers,
+  .likes,
+  .photos {
+    width: 33%;
+  }
+
+  .attribution {
+    bottom: 8rem;
+  }
 }
