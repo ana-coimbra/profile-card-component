@@ -143,13 +143,36 @@ a:hover {
     top: 350px;
     left: 150px;
   }*/
+
+  h1 {
+    left: 100px;
+  }
+
+  p {
+    left: 130px;
+  }
+
+  hr {
+    top: 265px;
+  }
+
   .container {
+    width: 320px;
+    height: 365px;
     padding: 0;
-    margin: 10rem auto;
+    margin: 8rem auto;
+  }
+
+  .pattern {
+    width: 320px;
+  }
+
+  .profile {
+    left: 110px;
   }
 
   .row {
-    left: 40px;
+    bottom: 15px;
   }
 
   .followers-number,
@@ -165,6 +188,6 @@ a:hover {
   }
 
   .attribution {
-    bottom: 8rem;
+    bottom: 6rem;
   }
 }
