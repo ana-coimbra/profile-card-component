@@ -51,7 +51,7 @@ hr {
   right: 0px;
 }
 
-/*.image-top {
+.image-top {
   position: absolute;
   z-index: 0;
   top: -400px;
@@ -62,7 +62,7 @@ hr {
   position: absolute;
   z-index: 0;
   right: -150px;
-}*/
+}
 
 .container {
   width: 350px;
@@ -131,19 +131,21 @@ a:hover {
 }
 
 @media only screen and (max-width: 375px) {
-  /*.image-top {
+  .image-top {
     position: absolute;
     z-index: 0;
-    bottom: 350px;
-    right: 150px;
+    bottom: 0px;
+    right: 0;
+    left: -45rem;
+    top: -40rem;
   }
 
   .image-bottom {
     position: absolute;
     z-index: 0;
-    top: 350px;
-    left: 150px;
-  }*/
+    top: 15rem;
+    left: 10rem;
+  }
 
   h1 {
     left: 100px;
