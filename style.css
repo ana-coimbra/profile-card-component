@@ -130,6 +130,15 @@ a:hover {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1440px) {
+  .image-top {
+  left: -300px;
+}
+
+.image-bottom {
+  right: -300px;
+}
+
 @media only screen and (max-width: 375px) {
   .image-top {
     position: absolute;
